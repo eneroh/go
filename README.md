@@ -25,8 +25,13 @@ https://github.com/dreamsofcode-io/goprojects/tree/main/01-todo-list
 ### 2. gui to do list
 
 ### 3. web scraper
-Scrapes for links on web page for active links. Any dead links are logged to console
+Scrapes for links on web page for active links.
+<br>
+Any dead links are logged to console
+<br>
 Does not work for javascript based websites unless you use headless browser (playwright)
+<br>
+Will be useful for doing domain enum
 
 ### 4. URL shortener
 
