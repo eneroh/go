@@ -18,10 +18,13 @@
 * strconv
 
 *Additional functionality*
+<br>
 --due (due date)
 
 *Sources*
+<br>
 "Powerful command-line applications in go" by Ricardo Gerardi
+<br>
 https://github.com/dreamsofcode-io/goprojects/tree/main/01-todo-list
 
 ### 2. gui to do list
