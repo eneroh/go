@@ -9,12 +9,12 @@ tasks complete
 tasks delete
 
 packages/libs
-*csv
-*tabwriter
-*timediff
-*cobra
-*os
-*strconv
+* csv
+* tabwriter
+* timediff
+* cobra
+* os
+* strconv
 
 Additional functionality:
 --due (due date)
