@@ -3,12 +3,13 @@
 ## projects
 
 ### 1. cli to do list
-tasks add
-tasks list
-tasks complete
-tasks delete
+*functionality*
+* tasks add
+* tasks list
+* tasks complete
+* tasks delete
 
-packages/libs
+*packages/libs*
 * csv
 * tabwriter
 * timediff
@@ -16,9 +17,10 @@ packages/libs
 * os
 * strconv
 
-Additional functionality:
+*Additional functionality*
 --due (due date)
-Sources:
+
+*Sources*
 "Powerful command-line applications in go" by Ricardo Gerardi
 https://github.com/dreamsofcode-io/goprojects/tree/main/01-todo-list
 
