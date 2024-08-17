@@ -11,6 +11,27 @@
 :! go run <filepath>
 ```
 
+## operators
+```go
+!=
+```
+Not equal comparator
+
+```go
+==
+```
+equal comparator
+
+```go
+&&
+```
+AND, requires both statements to be true
+
+```go
+||
+```
+OR, if true proceed
+
 ## syntax
 * File must end in .go i.e. hello.go
 * File must be compiled using go compiler before running
@@ -160,14 +181,27 @@ Cannot change value once created
 Must be given a value, cannot just declare
 
 ```go
-!=
+if err!=nul {
+  fmt.Printf(err.Error())
+} else if remainder == 0 {
+  fmt.Printf("The reuslt of the integer division is %v", result)
+} else {
+  fmt.Printf("The result of the integer division is %v with remainder %v", result, remainder)
+}
 ```
-Not equal comparator
+if statement
 
 ```go
-==
+switch {
+  case err!=nul:
+    fmt.Printf(err.Error())
+  case remainder==0:
+    fmt.Printf("The result of the interger division is %v", result)
+  default:
+    fmt.Printf("The result of the integer division is %v with remainder %v", result remainder)
+}
 ```
-equal comparator
+switch statement
 
 ## data types
 * bool
