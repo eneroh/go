@@ -5,19 +5,23 @@
 * concurrency with go routines, functions that run at the other time as other functions by utilizing multiple threads on a cpu
 
 ## syntax
-File must end in .go
-hello.exe
+* File must end in .go
+* hello.exe
 
+```go
 package main
 
 func main() {
 
 }
+```
+main layout of go
 
-to compile .go
 ```go
 go build <filename>.go
 ```
+to compile .go
+
 ```go
 go mod init 
 ```
