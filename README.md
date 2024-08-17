@@ -3,6 +3,9 @@
 ## notes
 * store the memory address of a value using pointers but disallows pointer arithmatic which causes serious issues
 * concurrency with go routines, functions that run at the other time as other functions by utilizing multiple threads on a cpu
+* UTF-8 encoding meaning characters outside the vanilla ascii characters are considered 2 characters
+* To ensure you get the correct character count for item outside regular ascii characters fmt(printLn(utf8.RuneCountInString("<special symbol>"))
+* best practice: be clear with the type
 
 ## syntax
 * File must end in .go i.e. hello.go
@@ -90,6 +93,80 @@ var year int = 2021;
 var p *int = &year
 ```
 pointer layout
+
+```go
+uint
+```
+unsigned integers
+Only stores positive integers
+
+```go
+int16
+```
+Only reaches up to 32767, anymore will result in errors
+
+```go
+uint8
+```
+more efficient than int as less bits = more efficient
+
+```go
+int
+```
+int is equivalent to int64
+
+```go
+~~var result float32 = floatNum32 + intNum32~~
+var result float32 = floatNum32 + float32(intNum32)
+```
+Convert two different data types to the same to have the correct result
+
+```go
+fmt.Println(intNum1/intNum2)
+fmt.Println(intNum1%intNum2)
+```
+/ for whole number
+% for float/remainder
+
+```go
+var myBoolean bool = false
+```
+True or false
+
+```go
+string
+```
+default value = ' '
+
+```go
+int,uint,float,run
+```
+default value = 0
+
+```go
+bool
+```
+default value = false
+
+```go
+const myConst string = "const value"
+```
+Cannot change value once created
+<br>
+Must be given a value, cannot just declare
+
+```go
+
+```
+
+## data types
+
+bool
+float32 float 64
+int int16 int32 int64
+rune
+string
+uint uint8 uint16 uint32 uint64
 
 ## standard librarys
 https://pkg.go.dev/std
