@@ -6,6 +6,6 @@ func main(){
   printMe()
 }
 
-func printMe(printValue string){
+func printMe(){
   fmt.Println("Hello World")
 }
