@@ -7,8 +7,9 @@
 * To ensure you get the correct character count for item outside regular ascii characters fmt(printLn(utf8.RuneCountInString("<special symbol>"))
 * best practice: be clear with the type
 * perform nvim testing by using:
+```bash
 :! go run <filepath>
-
+```
 
 ## syntax
 * File must end in .go i.e. hello.go
