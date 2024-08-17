@@ -23,10 +23,12 @@ go build <filename>.go
 to compile .go
 
 ```go
-go mod init 
+go mod init
+go mod init <github repo> [best practice]
 ```
 creates a go module file, which enables dependency tracking
 dependency management
+
 
 ```go
 var <name> <type> = <value>
