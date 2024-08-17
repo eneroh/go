@@ -160,13 +160,17 @@ Must be given a value, cannot just declare
 ```
 
 ## data types
-
-bool
-float32 float 64
-int int16 int32 int64
-rune
-string
-uint uint8 uint16 uint32 uint64
+* bool
+<br>
+* float32 float 64
+<br>
+* int int16 int32 int64
+<br>
+* rune
+<br>
+* string
+<br>
+* uint uint8 uint16 uint32 uint64
 
 ## standard librarys
 https://pkg.go.dev/std
