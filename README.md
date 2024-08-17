@@ -5,8 +5,8 @@
 * concurrency with go routines, functions that run at the other time as other functions by utilizing multiple threads on a cpu
 
 ## syntax
-* File must end in .go
-* hello.exe
+* File must end in .go i.e. hello.go
+* File must be compiled using go compiler before running
 
 ```go
 package main
