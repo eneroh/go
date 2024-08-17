@@ -160,8 +160,14 @@ Cannot change value once created
 Must be given a value, cannot just declare
 
 ```go
-
+!=
 ```
+Not equal comparator
+
+```go
+==
+```
+equal comparator
 
 ## data types
 * bool
