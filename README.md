@@ -205,7 +205,7 @@ switch statement
 
 ## data types
 * bool
-* float32 float 64
+* float32 float64
 * int int16 int32 int64
 * rune
 * string
