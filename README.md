@@ -151,6 +151,7 @@ fmt.Println(intNum1/intNum2)
 fmt.Println(intNum1%intNum2)
 ```
 / for whole number
+<br>
 % for float/remainder
 
 ```go
